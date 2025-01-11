@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-image: url('bg.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    /* width: 100%;
+    height: 1000px;
+} */ 
+.container{
+    
+    height: 195px;  
+    margin-top: 0.5%;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    height: 20vh;
+    display: flex;
+    border-radius: 48%; /* Make the view circular */
+    overflow: hidden;
+    box-shadow: 2px 2px 5px 8px;
+    
+
+}
+.container img {
+    border-radius: 48%;
+    box-shadow: 2px 2px 5px 8px rgba(87, 48, 48, 0.344);
+}
+.section{
+    position: relative;
+    top: 55px;
+    right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    color:rgb(145, 183, 219) ;
+    font-size: 23px;    
+}
+
+.boss{
+    background-image: url('bag.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    /* background-color:-webkit-linear-gradient(90deg, #072727,#195e6c,#eb2d4a,#f1681e,#ffeee5);background: linear-gradient(90deg, #072727,#195e6c,#eb2d4a,#f1681e,#ffeee5); */
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius:5%;
+    height: 195px;  
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    color: rgba(209, 72, 72, 0.642);
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 170px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.main1{
+    
+    position: absolute;
+    left: 130px;
+    top: 220px;
+    border: 3px solid rgb(255, 255, 255);
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+    overflow: hidden;
+    transition: all;
+}
+.main1:hover{
+    box-shadow: 2px 2px 5px 4px  rgba(14, 30, 37, 0.12) ;
+    transform: scale(1.12);
+}
+.main1 img {
+    position: relative;
+    top: 0px;
+    padding: 5px;
+    width: 100%;
+    height: 274px;
+    border-radius: 10%;
+    gap: 20px;
+    
+   
+    overflow: hidden;
+}
+.main2{
+    position: absolute;
+    left: 480px;
+    top: 220px;
+    border: 3px solid rgb(255, 255, 255);
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+    overflow: hidden;
+    transition: all;
+
+}
+.main2:hover{
+    box-shadow: 2px 2px 5px 4px  rgba(14, 30, 37, 0.12) ;
+    transform: scale(1.12);
+}
+#main2 img {
+    position: absolute;
+    top: 0%;
+    padding: 5px;
+    width: 100%;
+    height: 70%;
+    border-radius: 10%;
+    gap: 20px;   
+    overflow: hidden;
+    
+}
+.main p{
+    position: absolute;
+    top: 300px;
+}
+.pro2{
+    padding: 10px;
+    position: absolute;
+    left: 130px;
+    top: 650px;
+    border: 3px solid rgb(255, 255, 255);
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+    overflow: hidden;
+    transition: all;
+
+}
+.pro2:hover{
+    box-shadow: 2px 2px 5px 4px  rgba(14, 30, 37, 0.12) ;
+    transform: scale(1.12);
+}
+#pro12 img {
+    
+    position: absolute;
+    width: 92%;
+    height: 70%;
+    border-radius: 10%;
+
+}
+.pro1 p{
+    position: relative;
+    top: 300px;
+    font-size: 20px;
+}
+.proA{
+    padding: 7px;
+    position: absolute;
+    left: 480px;
+    top: 650px;
+    border: 3px solid rgb(255, 255, 255);
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+    overflow: hidden;
+    transition: all;
+
+}
+.proA:hover{
+    box-shadow: 2px 2px 5px 4px  rgba(14, 30, 37, 0.12) ;
+    transform: scale(1.12);
+}
+.pro123  img{
+    position: absolute;
+    width: 94%;
+    height: 72%;
+    border-radius: 10%;
+}
+.pro123 p {
+    position: relative;
+    top: 300px;
+
+}
+
+#probc{
+    padding: 5px;
+    position: absolute;
+    left: 840px;
+    top: 210px;
+    border: 3px solid rgb(255, 255, 255);
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+    overflow: hidden;
+    transition: all;
+}
+#probc:hover{
+    box-shadow: 2px 2px 5px 4px  rgba(14, 30, 37, 0.12) ;
+    transform: scale(1.12);
+}
+#proB12 img{
+    position: absolute;
+    width: 96%;
+    height: 72%;
+    border-radius: 15%;
+}
+.proB123 p {
+    position: absolute;
+    top: 300px;
+}
+
+.proc{
+    padding: 5px;
+    position: absolute;
+    left: 820px;
+    top: 650px;
+    border: 3px solid rgb(255, 255, 255);
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+    overflow: hidden;
+    transition: all;
+}
+.proc:hover{
+    box-shadow: 2px 2px 5px 4px  rgba(14, 30, 37, 0.12) ;
+    transform: scale(1.12);
+}
+.proc1 img{
+    position: absolute;
+    width: 96%;
+    height: 72%;
+    border-radius: 15%;
+}
+.proc1 p {
+    position: absolute;
+    top: 300px;
+}
+
+
+    
+
+   
